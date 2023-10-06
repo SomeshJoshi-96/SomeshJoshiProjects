@@ -1,0 +1,190 @@
+*{
+	font-family: Bahnschrift Light;
+}
+body{
+	margin: 0px;	
+}
+
+#body-header{
+	height: 80vh;
+	background-image: url("images/bg.jpg");
+	opacity: 0.8;
+	background-size: cover;
+	background-position:center;
+	background-attachment:fixed ;
+}
+
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+	font-family:Bahnschrift Light;
+}
+
+.horizontal-list li a{
+	color: white;
+	text-decoration:none;
+}
+
+.nav-menu li a{
+	transition:color 1s;
+	transition:text-decoration 1s; 
+	transition:font-size 1s;
+}
+
+.nav-menu li a:hover{
+	color: lightskyblue;
+	text-decoration: underline;
+	font-size: 1.3rem;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#my-name{
+	font-size: 5rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	font-family:Bahnschrift Light;
+}
+
+.social-icons li a i{
+	padding: 10px;
+	font-size: 1.8rem;
+	border-radius: 50%;
+
+}
+
+.social-icons li a i:hover{
+	box-shadow:0px 0px 15px 1px  ;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+}
+#my-image img{
+	margin-top: -17vh;
+	border-radius: 50%;
+	position: relative;
+	border-style: solid;
+	border-color: whitesmoke;
+	box-shadow: 0px 0px 15px 5px whitesmoke;
+}
+
+#about p{
+	margin-top: -10vh;
+	padding: 0px 15vw 0px 15vw;
+}
+
+section{
+	width: 100%;
+/*	height: 75vh;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(2n) {
+	background-color: lightgray;
+}
+
+section:nth-child(2n+1) {
+	background-color: white;
+}
+
+
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+}
+
+.mb75px{
+	margin-bottom: 75px;
+}
+
+
+.skills-display{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.skills-progress{
+	width: 7rem;
+	height: 1.4rem;
+	margin: 30px 100px 50px 100px;
+	background-color: darkgray;
+	border-radius: 0.8rem;
+	box-shadow: 0px 0px 2px 4px darkgray;
+}
+
+.skills-progress>div{
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: 4px 0px 1px 1px darkgray;
+}
+
+.d85-percent{
+	width: 85%;
+	height: inherit;
+}
+
+.mb-blue{
+	background-color:#2857a4 ;
+}
+
+.mb-orange{
+	background-color:orange;
+}
+
+.mb-green{
+	background-color:darkolivegreen ;
+}
+
+.skill-name span{
+	color: white;
+	font-size: 1.2rem;
+	margin-left: 5px;
+}
+
+.portfolio-display{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.portfolio-display div{
+	width: 30%;
+	height: auto;
+	margin: 20px 10px 20px 10px;
+}
+
+.portfolio-display div img {
+	width: 100%;
+	height: auto;
+}
